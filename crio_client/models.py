@@ -1,0 +1,1 @@
+# Data structures/dataclasses representing API resources

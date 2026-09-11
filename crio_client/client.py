@@ -1,0 +1,2 @@
+# Core HTTP client class handling sessions & headers (centralizes error handling, timeouts, and authentication tokens to avoid repeating code across different)
+# Encapsulates HTTP transport layer (using requests. )
