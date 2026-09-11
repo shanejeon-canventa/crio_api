@@ -7,8 +7,8 @@ load_dotenv()
 
 class Config:
     # config for SANDBOX API
-    BASE_URL: str = os.getenv("BASE_URL")
-    BEARER_TOKEN: str = os.getenv("API_KEY")
+    BASE_URL:str=os.getenv("BASE_URL")
+    BEARER_TOKEN:str=os.getenv("BEARER_TOKEN")
     # TIMEOUT:int = int(os.getenv("CRIO_TIMEOUT", "30"))
     
     @classmethod
