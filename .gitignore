@@ -1,3 +1,6 @@
 # Exclusion rules
 .env
-crio_client/config.py
+venv/
+__pycache__/
+*.pyc 
+.pytest_cache/
