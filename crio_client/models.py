@@ -1,1 +1,1 @@
-# Data structures/dataclasses representing API resources
+# Data structures/dataclasses representing API resources, validating and type hinting raw JSON payloads returned by the API
