@@ -1,18 +1,24 @@
-# Configuration loader. Avoids hardcoding
-import os 
-from dotenv import load_dotenv
+import os
 
-# Loading variables from .env file to os.environ
-load_dotenv()
-
+# env variables & settings mgmt
 class Config:
-    # config for SANDBOX API
-    BASE_URL:str=os.getenv("BASE_URL")
-    BEARER_TOKEN:str=os.getenv("BEARER_TOKEN")
-    # TIMEOUT:int = int(os.getenv("CRIO_TIMEOUT", "30"))
+    def __init__(self):
+        self.api_token = os.getenv("CRIO_API_TOKEN")
+        self.base_url = os.getenv("CRIO_BASE_URL")
+        self.client_id = os.getenv("CLS_CLIENT_ID")
+        self.site_id = os.getenv("SITE_ID") # for Canventa Mansfield
+        self.timeout = 30 # place holder seconds
+        
+        self.required_headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_token}", # Expires after 90 days
+            "Accept": "application/json"
+        }
+        
+    def get_headers(self) -> dict:
+        """Returns CRIO required headers.""" 
+        headers = self.required_headers.copy() 
+        # .copy() provides a "fresh copy" of headers dictionary. Prevents HTTP client/external scripts from modifying/corrupting global default config during run time [vs. returning original]
+        
+        return headers
     
-    @classmethod
-    def validate(cls):
-        """Validate bearer token"""
-        if not cls.BEARER_TOKEN:
-            raise ValueError("CRIO_BEARER_TOKEN is missing from .env")
