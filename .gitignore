@@ -1,6 +1,6 @@
-# Exclusion rules
 .env
 venv/
+crio_sdk/__pycache__
 __pycache__/
 *.pyc 
 .pytest_cache/
