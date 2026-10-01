@@ -13,20 +13,16 @@ class Config:
     def __init__(self):
         # Defaults to sandbox unless PROD specified
         self.env = os.getenv("CRIO_ENV", "sandbox").lower()
+        prefix = "PROD" if self.env == "production" else "SANDBOX"
         
-        if self.env == "production":
-            self.api_token = os.getenv("BEARER_TOKEN_PROD")
-            self.base_url = os.getenv("BASE_URL_PROD")
-            self.client_id = os.getenv("CLIENT_ID_PROD")
-            self.site_id = os.getenv("SITE_ID_PROD", site.MANSFIELD_PROD) #Canventa Mansfield
+        self.api_token = os.getenv(f"BEARER_TOKEN_{prefix}")
+        self.base_url = os.getenv(f"BASE_URL_{prefix}")
+        self.client_id = os.getenv(f"CLIENT_ID_{prefix}")
+        
+        self.site_id_sandbox = os.getenv(f"SITE_ID_SANDBOX")  
+        self.site_id_mansfield = os.getenv(f"SITE_ID_CM_PROD")
             
-        else:
-            self.api_token = os.getenv("API_TOKEN_SANDBOX")
-            self.base_url = os.getenv("BASE_URL_SANDBOX")
-            self.client_id = os.getenv("CLIENT_ID_SANDBOX")
-            self.site_id = os.getenv("SITE_ID_SANDBOX", site.API_SANDBOX)
-            
-        self.timeout = 30 # place holder seconds
+        self.timeout = 30 # 30 seconds
         
         self.headers = {
             "Content-Type": "application/json",
@@ -37,5 +33,5 @@ class Config:
     def get_headers(self) -> dict:
         """Returns CRIO required headers.""" 
         return self.headers.copy() 
-        # .copy() provides a "fresh copy" of headers dictionary. Prevents HTTP client/external scripts from modifying/corrupting global default config during run time [vs. returning original]
+        # preserves original, prevents mutation 
     
