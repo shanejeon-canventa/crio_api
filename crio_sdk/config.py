@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # env variables & settings mgmt
 class Config:
@@ -13,16 +16,16 @@ class Config:
             self.site_id = os.getenv("PROD_SITE_ID") #Canventa Mansfield
             
         else:
-            self.api_token = os.getenv("CRIO_API_TOKEN")
-            self.base_url = os.getenv("CRIO_BASE_URL")
-            self.client_id = os.getenv("CLS_CLIENT_ID")
-            self.site_id = os.getenv("SITE_ID")
+            self.api_token = os.getenv("SANDBOX_API_TOKEN")
+            self.base_url = os.getenv("SANDBOX_BASE_URL")
+            self.client_id = os.getenv("SANDBOX_CLS_CLIENT_ID")
+            self.site_id = os.getenv("SANDBOX_SITE_ID")
             
         self.timeout = 30 # place holder seconds
         
         self.headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_token}", # Expires after 90 days
+            "Authorization": f"Bearer {self.api_token}", # Expires after 90 days
             "Accept": "application/json"
         }
         

@@ -1,19 +1,22 @@
 # Main entry point to run application & operations
-from crio_client.config import Config
-from crio_client.client import CrioClient
-from crio_client.resource import PatientResource
+from crio_sdk import Config,  CrioClient, DonorResource
+
 
 def main():
-    Config.validate #validates base url, required headers, token, and site id
+    config = Config()
+
+    print(f"Connecting to: {config.base_url}")
+    print(f"Client ID: {config.client_id}")
     
-    # instantiating API client and service
-    client = CrioAPIClient()
-    service = PatientResource(client)
-  
-    # add new patient method
-    # add print statement to confirm new patient has been created
+    client = CrioClient(config)
+    donor_api = DonorResource(client)
     
-    # same with put request ^^^
+    print("Fetching donor...")
+    site_id = config.site_id
+    test_donor_id = "2678519"
+    test_donor = donor_api.get_donor_by_id(test_donor_id, site_id)
+    print(f"TEST DONOR: {test_donor}")
+    
     
 if __name__ == "__main__":
     main()
