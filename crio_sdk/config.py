@@ -3,6 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+class Site(str, Enum):
+    """Loads all site IDs"""
+    MANSFIELD_PROD = os.getenv("SITE_ID_PROD")
+    API_SANDBOX = os.getenv("SITE_ID_SANDBOX")
+    
 # env variables & settings mgmt
 class Config:
     def __init__(self):
@@ -10,16 +15,16 @@ class Config:
         self.env = os.getenv("CRIO_ENV", "sandbox").lower()
         
         if self.env == "production":
-            self.api_token = os.getenv("PROD_BEARER_TOKEN")
-            self.base_url = os.getenv("PROD_BASE_URL")
-            self.client_id = os.getenv("PROD_CLS_CLIENT_ID")
-            self.site_id = os.getenv("PROD_SITE_ID") #Canventa Mansfield
+            self.api_token = os.getenv("BEARER_TOKEN_PROD")
+            self.base_url = os.getenv("BASE_URL_PROD")
+            self.client_id = os.getenv("CLIENT_ID_PROD")
+            self.site_id = os.getenv("SITE_ID_PROD", site.MANSFIELD_PROD) #Canventa Mansfield
             
         else:
-            self.api_token = os.getenv("SANDBOX_API_TOKEN")
-            self.base_url = os.getenv("SANDBOX_BASE_URL")
-            self.client_id = os.getenv("SANDBOX_CLS_CLIENT_ID")
-            self.site_id = os.getenv("SANDBOX_SITE_ID")
+            self.api_token = os.getenv("API_TOKEN_SANDBOX")
+            self.base_url = os.getenv("BASE_URL_SANDBOX")
+            self.client_id = os.getenv("CLIENT_ID_SANDBOX")
+            self.site_id = os.getenv("SITE_ID_SANDBOX", site.API_SANDBOX)
             
         self.timeout = 30 # place holder seconds
         

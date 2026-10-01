@@ -21,7 +21,7 @@ class CrioClient:
         
         query_params = {"client_id": self.config.client_id}
 
-        if site_id:
+        if site_id or getattr(self.config, "site_id", None):
             query_params["site_id"] = site_id
         
         if params:
