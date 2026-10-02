@@ -1,7 +1,17 @@
 import os
+import json
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv()
+    
+def load_json_data(conf_json_name:str="conf.json") -> dict:
+    config_path = Path(conf_json_name)
+    # if not conf_json_name.exists():
+    #     raise FileNotFoundError(f"conf.json file missing: {config_path}")
+    
+    with open(config_path, mode="r", encoding="utf-8-sig") as data:
+        return json.load(data)
     
 # env variables & settings mgmt
 class Config:
@@ -28,4 +38,3 @@ class Config:
         """Returns CRIO required headers.""" 
         return self.headers.copy() 
         # preserves original, prevents mutation 
-    

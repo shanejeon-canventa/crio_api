@@ -15,3 +15,7 @@ class DonorResource:
         """Retrieves donor by Patient ID through Patient Lookup API"""
         
         return self.client.request("GET", PatientEndpoints.LOOKUP(patient_id, site_id))
+    
+    def search_donor(self, search_payload: dict, site_id: str=None)->dict:
+        """Gets required donor data for patient POST requests."""
+        return self.client.request("POST", PatientEndpoints.GET_CONTACT_DATA(), payload=search_payload, site_id=site_id)
