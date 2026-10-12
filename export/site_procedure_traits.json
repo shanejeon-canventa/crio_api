@@ -1,0 +1,1291 @@
+﻿{
+    "siteId": "5409",
+    "operationTimestamp": 1791843663721,
+    "studies": [
+        {
+            "studyKey": "154734",
+            "procedures": [
+                {
+                    "procedureName": "HIV/HBV/HCV",
+                    "procedureKey": "9553169",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "76385058",
+                                    "variableName": "hiv_hep",
+                                    "cdashVariableName": null,
+                                    "name": "HIV/HBV/HCV result",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Negative",
+                                        "Positive"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "76385059",
+                                    "variableName": "dt",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "76385060",
+                                    "variableName": "accession",
+                                    "cdashVariableName": null,
+                                    "name": "Accession Number",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Collection Log - Historic",
+                    "procedureKey": "6172094",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190425",
+                                    "variableName": "one",
+                                    "cdashVariableName": null,
+                                    "name": "Was ICF obtained?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190426",
+                                    "variableName": "two",
+                                    "cdashVariableName": null,
+                                    "name": "Date/ Time of Collection",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190427",
+                                    "variableName": "three",
+                                    "cdashVariableName": null,
+                                    "name": "Lot #",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190428",
+                                    "variableName": "four",
+                                    "cdashVariableName": null,
+                                    "name": "Original ID",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190429",
+                                    "variableName": "five",
+                                    "cdashVariableName": null,
+                                    "name": "Age",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190430",
+                                    "variableName": "six",
+                                    "cdashVariableName": null,
+                                    "name": "Gender",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Male",
+                                        "Female"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190431",
+                                    "variableName": "seven",
+                                    "cdashVariableName": null,
+                                    "name": "# of Tubes",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190432",
+                                    "variableName": "eight",
+                                    "cdashVariableName": null,
+                                    "name": "Volume per tube (mL)",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190434",
+                                    "variableName": "temp_choice",
+                                    "cdashVariableName": null,
+                                    "name": "Were the tubes ambient, refrigerated, or frozen?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Ambient",
+                                        "Refrigerated",
+                                        "Frozen",
+                                        "Refrigerated and Frozen",
+                                        "All three"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190435",
+                                    "variableName": "eleven",
+                                    "cdashVariableName": null,
+                                    "name": "Date/Time specimen placed in refrigerator",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190436",
+                                    "variableName": "twelve",
+                                    "cdashVariableName": null,
+                                    "name": "Refrigerator ID #",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190437",
+                                    "variableName": "thirteen",
+                                    "cdashVariableName": null,
+                                    "name": "Refrigerator temp (C)",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190438",
+                                    "variableName": "frozen",
+                                    "cdashVariableName": null,
+                                    "name": "Was the specimen placed in freezer?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190439",
+                                    "variableName": "specimen_placement",
+                                    "cdashVariableName": null,
+                                    "name": "Date/Time Specimen placed in freezer",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190440",
+                                    "variableName": "freezer_id",
+                                    "cdashVariableName": null,
+                                    "name": "Freezer ID #",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190441",
+                                    "variableName": "freezer_temp",
+                                    "cdashVariableName": null,
+                                    "name": "Freezer Temp (C)",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Daily Medications",
+                    "procedureKey": "9163690",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73127567",
+                                    "variableName": "med",
+                                    "cdashVariableName": null,
+                                    "name": "Medication name",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73127568",
+                                    "variableName": "reason",
+                                    "cdashVariableName": null,
+                                    "name": "reason for taking",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Birth Control",
+                                        "Blood Pressure",
+                                        "Asthma",
+                                        "Allergies",
+                                        "Depression/Mood",
+                                        "Vitamin",
+                                        "Weight Loss",
+                                        "Other"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "HLA Results - Historic",
+                    "procedureKey": "6172095",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190442",
+                                    "variableName": "locus",
+                                    "cdashVariableName": null,
+                                    "name": "Locus",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "A",
+                                        "B",
+                                        "C",
+                                        "DPA1",
+                                        "DPB1",
+                                        "DQA1",
+                                        "DQB1",
+                                        "DRB1",
+                                        "DRB345"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190443",
+                                    "variableName": "allele_1",
+                                    "cdashVariableName": null,
+                                    "name": "Allele 1",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190444",
+                                    "variableName": "allele_2",
+                                    "cdashVariableName": null,
+                                    "name": "Allele 2",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190445",
+                                    "variableName": "comments",
+                                    "cdashVariableName": null,
+                                    "name": "Comments",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190446",
+                                    "variableName": "diploid",
+                                    "cdashVariableName": null,
+                                    "name": "Diploid Ambiguities",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190447",
+                                    "variableName": "allele_1_amb",
+                                    "cdashVariableName": null,
+                                    "name": "Allele 1 Ambiguities",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190448",
+                                    "variableName": "allele_2_amb",
+                                    "cdashVariableName": null,
+                                    "name": "Allele 2 Ambiguities",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Concomitant Medications",
+                    "procedureKey": "6172092",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190411",
+                                    "variableName": "medication",
+                                    "cdashVariableName": null,
+                                    "name": "Medication",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190412",
+                                    "variableName": "reason",
+                                    "cdashVariableName": null,
+                                    "name": "Reason",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190420",
+                                    "variableName": "eval",
+                                    "cdashVariableName": null,
+                                    "name": "Evaluation - Is Medication cause for DQ?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "YES",
+                                        "NO"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Ht/Wt/BMI (with autocalculation for both units)***",
+                    "procedureKey": "7111183",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "55934110",
+                                    "variableName": "measured",
+                                    "cdashVariableName": null,
+                                    "name": "Was height/weight/BMI assessed at this visit?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "55934111",
+                                    "variableName": "visit",
+                                    "cdashVariableName": null,
+                                    "name": "Visit:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Screening",
+                                        "Unscheduled",
+                                        "All other visits"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "55934112",
+                                    "variableName": "date",
+                                    "cdashVariableName": null,
+                                    "name": "Date/Time of measurements:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "55934113",
+                                    "variableName": "height",
+                                    "cdashVariableName": null,
+                                    "name": "Height:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "55934114",
+                                    "variableName": "height_unit",
+                                    "cdashVariableName": null,
+                                    "name": "Height unit:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Inches",
+                                        "Centimeters"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "55934116",
+                                    "variableName": "weight",
+                                    "cdashVariableName": null,
+                                    "name": "Weight:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "55934117",
+                                    "variableName": "weight_unit",
+                                    "cdashVariableName": null,
+                                    "name": "Weight unit:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Pounds",
+                                        "Kilograms"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Specimen Collection Log - Historic",
+                    "procedureKey": "6172093",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190421",
+                                    "variableName": "one",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Blood Draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190422",
+                                    "variableName": "two",
+                                    "cdashVariableName": null,
+                                    "name": "Body Weight (POUNDS)",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190423",
+                                    "variableName": "three",
+                                    "cdashVariableName": null,
+                                    "name": "Volume for that blood draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190424",
+                                    "variableName": "four",
+                                    "cdashVariableName": null,
+                                    "name": "Total Drawn to date",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Ht at Screen/Wt/BMI",
+                    "procedureKey": "9163599",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73126926",
+                                    "variableName": "height",
+                                    "cdashVariableName": null,
+                                    "name": "Ht",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73126927",
+                                    "variableName": "wt_kg",
+                                    "cdashVariableName": null,
+                                    "name": "Wt (kg)",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Allergy History",
+                    "procedureKey": "6172091",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190408",
+                                    "variableName": "type",
+                                    "cdashVariableName": null,
+                                    "name": "Type of Allergy:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Food Allergy",
+                                        "Drug or Excipient",
+                                        "Insect bites/ sting",
+                                        "Pet Allergens",
+                                        "Environmental Allergens",
+                                        "Other"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190409",
+                                    "variableName": "finding",
+                                    "cdashVariableName": null,
+                                    "name": "Allergen:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190410",
+                                    "variableName": "type_reaction",
+                                    "cdashVariableName": null,
+                                    "name": "Type of reaction/symptoms:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Donor Allergy History",
+                    "procedureKey": "9166220",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73147467",
+                                    "variableName": "type",
+                                    "cdashVariableName": null,
+                                    "name": "Type of Allergy:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Food Allergy",
+                                        "Medication",
+                                        "Insect bites/ sting",
+                                        "Pet Allergens",
+                                        "Environmental Allergens",
+                                        "Other"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73147468",
+                                    "variableName": "finding",
+                                    "cdashVariableName": null,
+                                    "name": "Allergen:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73147469",
+                                    "variableName": "type_reaction",
+                                    "cdashVariableName": null,
+                                    "name": "Type of reaction/symptoms:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Donor Demographics",
+                    "procedureKey": "6172089",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190396",
+                                    "variableName": "dob",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Birth:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190397",
+                                    "variableName": "type",
+                                    "cdashVariableName": null,
+                                    "name": "Type:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "New Donor",
+                                        "Rescreening Donor"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "49163488",
+                                    "variableName": "sex",
+                                    "cdashVariableName": null,
+                                    "name": "Sex (at birth):",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Male",
+                                        "Female",
+                                        "Intersex"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "49163489",
+                                    "variableName": "gender",
+                                    "cdashVariableName": null,
+                                    "name": "Gender:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Male",
+                                        "Female",
+                                        "Nonbinary"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190398",
+                                    "variableName": "race",
+                                    "cdashVariableName": null,
+                                    "name": "Race:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "American Indian/Alaskan Native",
+                                        "Asian",
+                                        "Black or African",
+                                        "American Native Hawaiian or Other Pacific Islander",
+                                        "White",
+                                        "Other Race"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190399",
+                                    "variableName": "ethnicity",
+                                    "cdashVariableName": null,
+                                    "name": "Ethnicity:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Hispanic or Latino",
+                                        "Not Hispanic or Latino"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190400",
+                                    "variableName": "smoker",
+                                    "cdashVariableName": null,
+                                    "name": "Smoker:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "48190401",
+                                    "variableName": "allergy",
+                                    "cdashVariableName": null,
+                                    "name": "Allergies?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Height at Screen",
+                    "procedureKey": "9163596",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73126908",
+                                    "variableName": "height",
+                                    "cdashVariableName": null,
+                                    "name": "Height",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73126909",
+                                    "variableName": "height_unit",
+                                    "cdashVariableName": null,
+                                    "name": "height unit",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Inches",
+                                        "Centimeters"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Ongoing Demographics",
+                    "procedureKey": "10536328",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "84711073",
+                                    "variableName": "street",
+                                    "cdashVariableName": null,
+                                    "name": "Street Address",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "84711074",
+                                    "variableName": "city_state",
+                                    "cdashVariableName": null,
+                                    "name": "City & State",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "84711075",
+                                    "variableName": "zip",
+                                    "cdashVariableName": null,
+                                    "name": "Zip Code",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "84711076",
+                                    "variableName": "dob",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Birth",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "84711078",
+                                    "variableName": "smoker",
+                                    "cdashVariableName": null,
+                                    "name": "Do you smoke, vape, or chew tobacco products? Answer NO if you do not use tobacco products or quit more than one year ago.",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Donor Vaccination History",
+                    "procedureKey": "9164289",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73132637",
+                                    "variableName": "immunizations",
+                                    "cdashVariableName": null,
+                                    "name": "Please list any vaccinations you have received",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Flu",
+                                        "Tetanus",
+                                        "COVID",
+                                        "RSV",
+                                        "Other"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73132638",
+                                    "variableName": "vaccine_date",
+                                    "cdashVariableName": null,
+                                    "name": "Approximate date of vaccination",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Tax Documentation",
+                    "procedureKey": "9163905",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73129487",
+                                    "variableName": "w9",
+                                    "cdashVariableName": null,
+                                    "name": "Did Donor complete a W9?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73129488",
+                                    "variableName": "e_delivery",
+                                    "cdashVariableName": null,
+                                    "name": "Does Donor consent to electronic delivery of tax documents?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Tissue Type",
+                    "procedureKey": "7112417",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "55944454",
+                                    "variableName": "type",
+                                    "cdashVariableName": null,
+                                    "name": "Tissue Type",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Whole Blood",
+                                        "Hepatic",
+                                        "Brain",
+                                        "Lung"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "1099 e-delivery consent",
+                    "procedureKey": "7681882",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "60635559",
+                                    "variableName": "tax",
+                                    "cdashVariableName": null,
+                                    "name": "Did the donor consent to electronic delivery of tax documents?",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Donor Demographics",
+                    "procedureKey": "9163547",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73126422",
+                                    "variableName": "address",
+                                    "cdashVariableName": null,
+                                    "name": "mailing address",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73126423",
+                                    "variableName": "dob",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Birth:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73126425",
+                                    "variableName": "sex",
+                                    "cdashVariableName": null,
+                                    "name": "Sex (at birth):",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Male",
+                                        "Female",
+                                        "Intersex"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73126426",
+                                    "variableName": "gender",
+                                    "cdashVariableName": null,
+                                    "name": "Gender:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Male",
+                                        "Female",
+                                        "Nonbinary"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73126427",
+                                    "variableName": "pp",
+                                    "cdashVariableName": null,
+                                    "name": "Preferred Pronoun",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "He",
+                                        "She",
+                                        "They",
+                                        "Other"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73126428",
+                                    "variableName": "race",
+                                    "cdashVariableName": "RACE",
+                                    "name": "Race:",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Caucasian",
+                                        "Pacific Islander",
+                                        "Hispanic",
+                                        "Asian",
+                                        "Native American",
+                                        "African American",
+                                        "Mixed",
+                                        "Unkown"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73126429",
+                                    "variableName": "smoker",
+                                    "cdashVariableName": null,
+                                    "name": "Do you smoke, vape, or chew tobacco products? Answer NO if you do not use tobacco products or quit more than one year ago.",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Yes",
+                                        "No"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "EBV IgG",
+                    "procedureKey": "9164408",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73133566",
+                                    "variableName": "ebv",
+                                    "cdashVariableName": null,
+                                    "name": "EBV result",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Positive",
+                                        "Negative",
+                                        "Not Drawn"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73133567",
+                                    "variableName": "dt",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73133568",
+                                    "variableName": "accession",
+                                    "cdashVariableName": null,
+                                    "name": "Accession number",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Donor Blood Type",
+                    "procedureKey": "9164348",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73133099",
+                                    "variableName": "abo",
+                                    "cdashVariableName": null,
+                                    "name": "ABO",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "A",
+                                        "B",
+                                        "O",
+                                        "AB"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73133100",
+                                    "variableName": "dr",
+                                    "cdashVariableName": null,
+                                    "name": "Rh",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Positive",
+                                        "Negative"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73133101",
+                                    "variableName": "dt",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73133102",
+                                    "variableName": "accesssion",
+                                    "cdashVariableName": null,
+                                    "name": "Accession Number",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "CMV IgG",
+                    "procedureKey": "9164407",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "73133563",
+                                    "variableName": "cmvigg",
+                                    "cdashVariableName": null,
+                                    "name": "CMV IgG result",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "SINGLE_SELECT",
+                                    "selectOptions": [
+                                        "Positive",
+                                        "Negative"
+                                    ]
+                                },
+                                {
+                                    "questionKey": "73133564",
+                                    "variableName": "dt",
+                                    "cdashVariableName": null,
+                                    "name": "Date of Draw",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "73133565",
+                                    "variableName": "accession",
+                                    "cdashVariableName": null,
+                                    "name": "Accession Number",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "procedureName": "Total Volume drawn - Historic",
+                    "procedureKey": "6172096",
+                    "records": [
+                        {
+                            "questions": [
+                                {
+                                    "questionKey": "48190449",
+                                    "variableName": "total",
+                                    "cdashVariableName": null,
+                                    "name": "Total mLs drawn today",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                },
+                                {
+                                    "questionKey": "48190450",
+                                    "variableName": "previous",
+                                    "cdashVariableName": null,
+                                    "name": "Previous total",
+                                    "value": null,
+                                    "comment": null,
+                                    "questionType": "FREE_ENTRY",
+                                    "selectOptions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -12,7 +12,7 @@ class CrioClient:
         self, 
         method:str, 
         endpoint:str, 
-        payload:dict=None, 
+        json:dict=None, 
         params:dict=None,
         site_id:str=None
     )->dict:
@@ -30,7 +30,7 @@ class CrioClient:
             response = self.session.request(
                 method=method,
                 url=url,
-                json=payload,
+                json=json,
                 params=query_params,
                 timeout=self.config.timeout        
             )

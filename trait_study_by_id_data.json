@@ -1,0 +1,27 @@
+﻿{
+    "operationTimestamp": 1791845662105,
+    "id": "33459",
+    "status": "CLOSED",
+    "siteName": "CLS NE",
+    "siteKey": "2381",
+    "studyKey": "33459",
+    "protocolNumber": "Trait Study",
+    "externalStudyNumber": "43f9b7e2-7690-435d-80b9-88323c12a23b",
+    "dateCreated": "17-Aug-2026 10:56:29",
+    "dateCreatedTS": 1786978589000,
+    "lastUpdated": "17-Aug-2026 11:40:31",
+    "lastUpdatedTS": 1786981231000,
+    "sponsor": {
+        "name": "CRIO"
+    },
+    "roles": [],
+    "indication": {
+        "type": "primary",
+        "name": "TRAITS"
+    },
+    "subjects": [],
+    "specialty": null,
+    "studyArmKey": null,
+    "studyArms": [],
+    "trialId": null
+}

@@ -1,0 +1,919 @@
+﻿{
+    "operationTimestamp": 1791842658322,
+    "id": "199719",
+    "status": "ENROLLING",
+    "siteName": "CLS NE",
+    "siteKey": "5409",
+    "studyKey": "199719",
+    "protocolNumber": "CL-350-00070",
+    "externalStudyNumber": "922fb3c2-35de-4ee8-88bd-f95cc6bf173a",
+    "dateCreated": "28-Apr-2026 11:46:00",
+    "dateCreatedTS": 1777391160000,
+    "lastUpdated": "07-May-2026 07:54:31",
+    "lastUpdatedTS": 1778154871000,
+    "sponsor": {
+        "name": "Canventa Life Sciences"
+    },
+    "roles": [
+        {
+            "type": "primary",
+            "role": "investigator",
+            "contact": {
+                "firstName": "alicia",
+                "lastName": "garcia",
+                "email": "alicia.garcia@canventa.com"
+            }
+        },
+        {
+            "type": "primary",
+            "role": "coordinator",
+            "contact": {
+                "firstName": "Patricia",
+                "lastName": "Vogt",
+                "email": "tricia.vogt@canventa.com"
+            }
+        }
+    ],
+    "indication": {
+        "type": "primary",
+        "name": "LP Collection from Healthy Donors"
+    },
+    "subjects": [
+        {
+            "id": "6032711",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393040",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393079",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393104",
+            "status": "SCREENING"
+        },
+        {
+            "id": "6393199",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393248",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393279",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6393297",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400048",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400053",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400064",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400068",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400074",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400180",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400293",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6400812",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6403278",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6404104",
+            "status": "SCREENING"
+        },
+        {
+            "id": "6404398",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6404704",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6405336",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6408211",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6409820",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6410035",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6410167",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6410220",
+            "status": "SCREEN_FAIL"
+        },
+        {
+            "id": "6467718",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6469187",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6471503",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6471832",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6471957",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6476223",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6479104",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6479267",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6479378",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6482564",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6482599",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6482609",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6482686",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6487608",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6487684",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6491294",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6491522",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6493659",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6499771",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6506861",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6507012",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6514931",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6516250",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6516300",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6516481",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6516509",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6518897",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6518922",
+            "status": "COMPLETED"
+        },
+        {
+            "id": "6518976",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6519176",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6519855",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6520284",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6520364",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6520619",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6522091",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6523523",
+            "status": "SCREEN_FAIL"
+        },
+        {
+            "id": "6523736",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525455",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525506",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525517",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525547",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525555",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6525592",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6525625",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6526680",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6527258",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6527279",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530082",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6530097",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6530100",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530189",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530228",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530231",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530235",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530242",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530257",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530265",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6530277",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530333",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6530468",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6530706",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530715",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530722",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530740",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530752",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530782",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6530805",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530860",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530948",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6530964",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531254",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531296",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531321",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6531721",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531775",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531792",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531817",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531840",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531852",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531897",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531913",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531925",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531926",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6531965",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6531986",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532001",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532030",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6532055",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6532069",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6532083",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6532085",
+            "status": "COMPLETED"
+        },
+        {
+            "id": "6532104",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532109",
+            "status": "SCHEDULED_V1"
+        },
+        {
+            "id": "6532125",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532135",
+            "status": "SCHEDULED_V1"
+        },
+        {
+            "id": "6532147",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532198",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6532254",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6532297",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6533731",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6533923",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6534059",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6534091",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6534144",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6534168",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6534216",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6534662",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6534817",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6534952",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6535041",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535053",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535123",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535141",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6535162",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6535216",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535276",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6535289",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535300",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6535342",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6535495",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6536625",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536656",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536775",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6536794",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536813",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536840",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6536853",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536896",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6536901",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6536908",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6536963",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6536979",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537037",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537050",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6537087",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537101",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537107",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537144",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537156",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6537166",
+            "status": "COMPLETED"
+        },
+        {
+            "id": "6538141",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6538908",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6538922",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6538930",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6538964",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6538992",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539026",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539045",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539248",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6539280",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6539348",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6539357",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539362",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539380",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539403",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539518",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539852",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539877",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539894",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6539920",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6602435",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6602612",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6603476",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6605656",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6605677",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6606573",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6607170",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6626918",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6629464",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6640775",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6643430",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6659957",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6660010",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6660040",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6681482",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6701781",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6702996",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6708963",
+            "status": "DISCONTINUED"
+        },
+        {
+            "id": "6709461",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6715752",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6728361",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6738539",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6765561",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6770994",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        },
+        {
+            "id": "6782256",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6803846",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6804173",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6806516",
+            "status": "ENROLLED"
+        },
+        {
+            "id": "6839252",
+            "status": "SCHEDULED_V1"
+        },
+        {
+            "id": "6842439",
+            "status": "PREQUALIFIED"
+        },
+        {
+            "id": "6854959",
+            "status": "SCHEDULED_V1"
+        },
+        {
+            "id": "6857661",
+            "status": "SCHEDULED_V1_NO_SHOW_CANCELLED"
+        }
+    ],
+    "specialty": null,
+    "studyArmKey": null,
+    "studyArms": [],
+    "trialId": null
+}

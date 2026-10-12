@@ -19,7 +19,9 @@ class Config:
         self.api_token = os.getenv(f"BEARER_TOKEN_{suffix}")
         self.base_url = os.getenv(f"BASE_URL_{suffix}")
         self.client_id = os.getenv(f"CLIENT_ID_{suffix}")
-        self.site_id = os.getenv(f"SITE_ID_{suffix}")        
+        self.site_id = os.getenv(f"SITE_ID_{suffix}")    
+        self.lp_study_id = os.getenv(f"LP_STUDY_ID_{suffix}")    
+        self.trait_study_id = os.getenv(f"TRAIT_STUDY_ID_{suffix}")
         
         self.dummy_data_path = self.config_data.get("dummy_data_path")
             
