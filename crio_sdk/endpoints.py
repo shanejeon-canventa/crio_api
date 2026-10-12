@@ -14,8 +14,8 @@ class StudyEndpoints:
     """For 'Study' endpoints."""
     
     @staticmethod
-    def GET_TRAIT_STUDY(study_id:str, client_id:str):
+    def GET_PROCEDURE_TRAIT_STUDY(study_id:str, client_id:str):
         return f"/study/{study_id}/procedure"
     
-    def GET_TRAIT_SITE(site_id:str, client_id:str):
+    def GET_PROCEDURE_TRAIT_SITE(site_id:str, client_id:str):
         return f"/site/{site_id}/procedure"
